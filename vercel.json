@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/hello.js": {
+      "source": "hello.js",
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/hello",
+      "dest": "api/hello.js"
+    }
+  ]
+}
